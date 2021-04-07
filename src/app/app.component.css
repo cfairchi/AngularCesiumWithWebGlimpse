@@ -1,0 +1,110 @@
+
+body {
+  display: flex;
+  background-color: black;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  max-height: 98vh;
+  max-width: 99vw;
+  overflow: no-display;
+  align-items: center;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  height: 98vh;
+  width: 99vw;
+  /*resize: vertical;*/
+ /* overflow: auto;
+  flex: 2;*/
+  justify-self: center;
+  align-self: center;
+}
+
+.cesiumDiv {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.bottomDiv {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.app-analysis-controls {
+  width: 500px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.app-analysis-results {
+
+}
+
+.timelineCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.app-timeline {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.app-map-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.mat-snack-bar-container {
+  margin: 50vh !important;
+}
+
+.mat-tab-label {
+  height: 25px !important;
+  color: lightgrey !important;
+  padding: 13px !important;
+  min-width: 60px !important;
+}
+
+.mat-slide-toggle-label {
+  color: lightgray !important;
+}
+
+.mat-option-text {
+  font-size: 12px;
+}
+.mat-option {
+  height: 2em !important;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: green !important;
+  border-radius: 4px;
+}
+
+.as-split-gutter {
+  background-color: #505050 !important;
+}
+
+.as-split-area {
+  overflow-x: auto !important;
+}
+

@@ -1,0 +1,32 @@
+<div class="mat-app-background content" role="main">
+  <div class="topDiv">
+    <as-split direction="vertical" #globeSplit>
+      <as-split-area [size]="72">
+        <div class="cesiumDiv">
+          <app-map-controls class="app-map-container"></app-map-controls>
+        </div>
+      </as-split-area>
+      <as-split-area [size]="28">
+        <div class="bottomDiv">
+
+          <as-split direction="horizontal" #resultSplit>
+            <app-timeline class="app-timeline"></app-timeline>
+          </as-split>
+        </div>
+      </as-split-area>
+    </as-split>
+  </div>
+
+
+  <!-- Links -->
+
+  <!-- Footer -->
+  <footer>
+
+  </footer>
+
+
+</div>
+
+
+

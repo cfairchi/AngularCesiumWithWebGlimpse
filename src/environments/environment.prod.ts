@@ -1,0 +1,4 @@
+export const environment = {
+  production: true,
+  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxN2QyMWVkYi00Nzc4LTRhZjUtYWQzNy0yZTk1MGYzYmFhOWYiLCJpZCI6MTY0LCJzY29wZXMiOlsiYXNyIiwiZ2MiXSwiaWF0IjoxNTY3NTMxOTcwfQ.meWIF0bV1Lykllqwts0LiG47QvSFUaml4ABv4hZLnF8'
+};
